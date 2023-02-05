@@ -1,0 +1,117 @@
+.footer {
+}
+.first__footer {
+    background: #F7F7F7;
+}
+.footer__container {
+    padding-top: 3.125rem;
+    padding-bottom: 1.25rem;
+}
+.footer-first__body {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+.footer__logo {
+    flex: 0 0 380px;
+}
+.footer__img {
+    max-width: 100%;
+}
+.footer__menu {
+    flex: 0 0 380px;
+}
+.footer__title {
+    margin-bottom: 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+.footer__list {
+}
+.footer__item {
+}
+.footer__link {
+    font-size: 0.8125rem;
+    line-height: 1.6;
+    color: rgb(0, 0, 0);
+}
+.footer__link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.footer__content {
+    flex: 0 0 380px;
+}
+.footer-content__item {
+}
+.footer__text {
+    font-size: 0.875rem;
+    line-height: 1.5;
+}
+.footer__content .footer-content__item{
+    margin-bottom: 1.1875rem;
+}
+.second__footer {
+}
+.footer-second__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer-second__text {
+    font-size: 0.8125rem;
+    line-height: 1.4;
+}
+.second-text__orange {
+    color: #FF4A32;
+}
+.footer__pay {
+}
+.footer-pay__list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.3125rem;
+}
+.footer-pay__item:hover .footer-pay__img {
+    transform: scale(1.15);
+}
+.footer-pay__link {
+}
+.footer-pay__img {
+    max-width: 100%;
+}
+@media(max-width: 990.98px){
+    .footer__logo {
+        flex: 0 1 auto;
+    }
+    .footer__menu {
+        flex: 0 1 auto;
+    }
+    .footer-second__body {
+        justify-content: center;
+        gap: 0.625rem;
+    }
+}
+@media(max-width: 400.98px){
+    .footer-first__body{
+        flex-direction: column;
+    }
+    .footer-first__body>*:first-child{
+        align-self: center;
+    }
+    .footer__content {
+        flex: 0 1 auto;
+    }
+}
+@media(max-width: 442.98px){
+    .footer-second__text {
+        text-align: center;
+    }
+    .footer-pay__list {
+        justify-content: center;
+    }
+}
